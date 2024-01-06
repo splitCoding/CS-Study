@@ -19,6 +19,7 @@
 3. 공부한 내용을 토대로 질문들을 작성해봅니다.
 
 ```text
+- 요약본은 week/chapter/본인이름.md 에 저장한다. ( ex. week1/chapter1_introduction/split.md )
 - 공부하면서 헷갈리거나 논의해보고 싶은 부분들을 스터디 전날 12까지 discussion 에 공유한다.
 - 작성한 질문은 스터디 당일날 공유한다.
 ```
