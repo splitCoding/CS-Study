@@ -17,7 +17,7 @@
     - 준비 큐에 있는 모든 프로세스는 CPU 에서 실행될 기회를 기다리며 대기
         - 큐에 있는 레코드들은 일반적으로 PCB
 
-<img src="./image/Untitled.png" width="400"></img>
+<img src="./image/Untitled.png" width="400">
 
 ## 1-3. 선점 및 비선점 스케줄링
 
@@ -244,19 +244,19 @@
         - 프로세서가 메모리보다 빠른 속도로 작동하기 때문
     - 캐시 미스로 인한 메모리 스톨도 존재
     
-    <img src="./image/Untitled 2.png" width="400"></img>
+    <img src="./image/Untitled 2.png" width="400">
     
 - Memory stall 해결을 위해서 다중 스레드 처리 코어를 구현
     - 하나의 코어에 2개 이상의 하드웨어 스레드가 할당
         - 하드웨어 스레드는 명령어 포인터 및 레지스터 집합과 같은 구조적 상태를 유지하기에 스레드를 실행할 수있는 논리적 CPU 로 인식
             
-            <img src="./image/Untitled 3.png" width="400"></img>
+            <img src="./image/Untitled 3.png" width="400">
             
         - 처리 코어는 한번에 하나의 하드웨어 스레드만 실행
             - 물리적 코어의 자원을 스레드 간에 공유하기 때문 ( 캐시, 파이프 라인 )
     - 메모리를 기다리는 동안 하나의 하드웨어 스레드가 중단시 다른 스레드로 전환
     
-    <img src="./image/Untitled 4.png" width="400"></img>
+    <img src="./image/Untitled 4.png" width="400">
     
     - 이중 스레드 처리 코어 스케줄링 2단계
         1. 운영체제가 각 하드웨어 스레드에서 소프트웨어 스레드를 결정하는 스케줄링 결정
@@ -310,14 +310,14 @@
         - hard 실시간 시스템에서 정해진 시간보다 작아야하고 최소로 해야함
         - 인터럽트 불능 시간 : 커널 데이터 구조체를 갱신하는 시간
         
-        <img src="./image/Untitled 5.png" width="400"></img>
+        <img src="./image/Untitled 5.png" width="400">
         
     2. 디스패치 지연시간
         - 스케줄링 디스패처가 하나의 프로세스를 블록시키고 다른 프로세스를 시작하는 데까지 걸리는 시간
         - CPU 를 즉시 사용해야하는 경우 이 지연시간을 최소화해야 함
         - 선점형 커널을 사용하는 것이 효과적
         
-        <img src="./image/Untitled 6.png" width="400"></img>
+        <img src="./image/Untitled 6.png" width="400">
         
         - 충돌
             1. 커널에서 동작하는 프로세스에 대한 선점
@@ -355,7 +355,7 @@
     | P1 | 50 | 20 |
     | P2 | 100 | 35 |
     
-    <img src="./image/Untitled 7.png" width="400"></img>
+    <img src="./image/Untitled 7.png" width="400">
     
 - 수행 불가능 예시
     
@@ -364,7 +364,7 @@
     | P1 | 50 | 25 |
     | P2 | 80 | 35 |
     
-    <img src="./image/Untitled 8.png" width="400"></img>
+    <img src="./image/Untitled 8.png" width="400">
     
 
 ## 6-4. Earliest-Deadline-First 스케줄링
@@ -377,7 +377,7 @@
     | P1 | 50 | 25 |
     | P2 | 80 | 35 |
 
-<img src="./image/Untitled 9.png" width="400"></img>
+<img src="./image/Untitled 9.png" width="400">
 
 - 시간 별 우선 순위
 
