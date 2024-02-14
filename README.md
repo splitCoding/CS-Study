@@ -71,7 +71,7 @@
       <td><a href="week1/chapter1_introduction/echo.md">외부 강의 요약</a></td>
       <td rowspan="2"><a href="week1/chatper2_Operating-System-Structures/boxster.md">책 요약</a></td>
       <td><a href="week1/chapter1_introduction/hongo.md">책 요약</a></td>
-      <td rowspan="4">컴퍼니 이슈 😭</td>
+      <td rowspan="6">컴퍼니 이슈 😭</td>
       <td rowspan="2"><a href="week1/study.md">기록</a></td>
     </tr>
     <tr>
@@ -82,19 +82,28 @@
     </tr>
     <tr>
       <td rowspan="2"><a href="https://github.com/splitCoding/CS-Study/issues/8">2주차</a></td>
-      <td>3</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td rowspan="2"></td>
+      <td>Chap3</td>
+      <td><a href="week2/chapter3_Process/split.md">요약</a></td>
+      <td><a href="week2/chapter3_Process/echo.md">요약</a></td>
+      <td><a href="week2/chapter3_Process/boxster.md">요약</a></td>
+      <td><a href="week2/chapter3_Process/hongo.md">요약</a></td>
+      <td rowspan="2"><a href="week2/study.md">기록</a></td>
     </tr>
     <tr>
-      <td>4</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Chap4</td>
+      <td><a href="week2/chapter4_Threads&Concurrency/split.md">요약</a></td>
+      <td><a href="week2/chapter4_Threads&Concurrency/echo.md">요약</a></td>
+      <td><a href="week2/chapter4_Threads&Concurrency/boxster.md">요약</a></td>
+      <td><a href="week2/chapter4_Threads&Concurrency/hongo.md">요약</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/splitCoding/CS-Study/issues/8">3주차</a></td>
+      <td>Chap5</td>
+      <td><a href="week3/chapter5_CPU_scheduling/split.md">요약</a></td>
+      <td><a href="week3/chapter5_CPU_scheduling/echo.md">요약</a></td>
+      <td><a href="week3/chapter5_CPU_scheduling/boxster.md">요약</a></td>
+      <td><a href="week3/chapter5_CPU_scheduling/hongo.md">요약</a></td>
+      <td><a href="week3/study.md">기록</a></td>
     </tr>
   </tbody>
 </table>
